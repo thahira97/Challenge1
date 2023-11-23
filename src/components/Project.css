@@ -1,0 +1,122 @@
+
+
+.project-light-mode {
+  /* border: 1px solid black; */
+  /* width: 100%; */
+  margin: 20px;
+  align-self: center;
+  text-align: center;
+  /* height: 150vh; */
+  background-color: white;
+}
+
+.side-block {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.filter-box {
+  /* width: 50%; */
+  display: flex;
+  align-self: center;
+}
+.checkbox-dropdown-list{
+  align-items: flex-start;
+  width: 70%;
+  list-style-type: none;
+  text-align: center;
+}
+.main-container {
+  display: flex;
+
+}
+.center-block {
+  height: fit-content;
+  width: 100%;
+}
+.center-block input{
+  width: 30%;
+  height: 3em;
+  margin: 50px;
+  align-self: center;
+}
+.buttons-19 {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+   background: #6666de;
+  transition: background-color 0.3s ease;
+  width: 11em;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  border-radius: 20px;
+}
+
+.buttons-19:active {
+  background-color: aqua;
+}
+
+/* Tabs container */
+.tabs {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background: #6666de;
+  border-radius: 30px;
+  color: white;
+}
+
+/* Individual tab */
+.tabs li {
+  width: max-content;
+  height:max-content;
+  padding: 30px;
+  justify-self: center;
+  font-size: larger;
+  font-weight: 800;
+  cursor: pointer;
+  /* border: 1px solid #ccc; */
+  border-radius: 20px;
+  margin-right: 5px;
+  text-align: center;
+  user-select: none;
+}
+
+/* Active tab */
+.tabs li.active {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  color: #fff;
+  border-color: black;
+
+}
+
+/* Tab content */
+.tab-content {
+  /* width: max-content; */
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.project-dark-mode {
+  background-color: #333;
+  color: white;
+}
+.light-mode {
+  background-color: white;
+  color: black;
+}

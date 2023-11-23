@@ -1,0 +1,57 @@
+.explore-section {
+  position: relative;
+  width: 100%;
+  background-image: url("../assets/2306.w026.n002.3407B.p1.3407.jpg");
+  background-size: cover;
+  color: rgba(24, 7, 7, 1);
+  text-align: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.explore-section.hidden {
+  display: none;
+}
+button.main-cancel {
+  position: absolute;
+  top: 60px; 
+  right: 10px; 
+  padding: 10px;
+  font-family: 'Oswald';
+  font-size: 3rem;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.explore-section h1 {
+  padding: 100px;
+  font-weight: 200;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.main-searchbar input {
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.skills {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 0.2fr);
+  grid-auto-rows: min-content(10px, auto);
+  grid-gap: 10px;
+}
+
+.skills button {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  color: white;
+  border-radius: 60px;
+  padding: 0;
+  margin: 0;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
